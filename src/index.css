@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-collection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.singleCard {
+  cursor: pointer;
+}
+
+.shadow-on {
+  background-color: blue;
+}
+
+.standout {
+  box-shadow: rgba(0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5.p {
+  text-align: center;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+select {
+  max-width: 500px;
+}
+
+nav>ul {
+  display: flex;
+  list-style: none;
+  background-color: gray;
+  padding: 10px;
+}
+
+nav>ul>li {
+  padding: 10px;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.groupedTeamMembers {
+  text-align: center;
+}
+
+.teamInfo>li {
+  list-style: none;
+}
+
+.everyTeam {
+  border: solid 5px black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.teamInfo {
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
